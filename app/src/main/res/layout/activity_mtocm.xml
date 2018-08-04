@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<EditText
+    android:id="@+id/mtocmtext"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:hint="enter the value in meters"
+    />
+    <Button
+        android:id="@+id/mtocmbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="convert to kilometers"/>
+    <TextView
+        android:id="@+id/mtocmtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/mtocmbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="convert to cms"/>
+    <TextView
+        android:id="@+id/mtocmtextview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
